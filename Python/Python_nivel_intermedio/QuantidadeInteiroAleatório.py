@@ -12,7 +12,7 @@ while X > 0:
     if X in Lst:
         while X in Lst:
                 Lst.remove(X)
-        print(f'{Lst}\n E a quantidade é:{Lst.count(X) }')
+        print(f'{Lst}\n E a quantidade após a remoção é:{Lst.count(X) }')
         
     else:
         print(f'\n O número {X} não está na lista. Fim do programa.')
