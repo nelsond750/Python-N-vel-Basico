@@ -10,4 +10,6 @@ if len(S) == 8 and S.isnumeric():
     print(f'A data fornecida é: {dia}/{mes}/{ano}')
 else:
 #Mensagem de erro (se a validação for False)
-    print('Erro! apenas numeros inteiros.') 
+    print('Erro! apenas numeros inteiros.')
+    
+    
