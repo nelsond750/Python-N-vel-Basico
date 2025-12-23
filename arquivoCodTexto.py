@@ -1,0 +1,17 @@
+codGravacao = input('Digite a codificação: ')
+codLeitura = input('Digite a codficação de Leitura: ')
+
+print('Entrada de gravação do arquivo')
+arq = open('teste.txt', 'w', encoding=codGravacao)
+arq.write('Gravação de arquivo \n')
+arq.write('acentos: á, é, í,Á,É,Í,ç Ç\n')
+arq.close()
+
+print('\nEtapa de leitura do arquivo')
+arq = open('teste.txt', 'r', encoding=codLeitura)
+s = arq.readline()
+print(s.rstrip())
+s = arq.readline()
+print(s.rstrip())
+arq.close()
+print('Fim do Programa')
