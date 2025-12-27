@@ -1,2 +1,2 @@
-# Python-N-vel-Basico
-Este respositório contém os exercícios práticos de Python-2025
+# Python Nível Básico
+##Este repositório contém os exercícios práticos de Python Básico-2025
